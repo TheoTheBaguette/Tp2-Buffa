@@ -2,8 +2,8 @@
 
 ##Ce qui est fait
 
-- Au début du jeu les cookies sont générés de façon à ce qu'il y ai pas d'alignement possible
-- lorsque drag and drop ou alors lorsqu'on click sur deux cookies , la fonction permettant de regarder les alignements se lance et ajoute des points, plus l'alignement est grand plus on gagne de points
+- Au début du jeu les cookies sont générés de façon à ce qu'il y ai pas d'alignement possible.
+- lorsque drag and drop ou alors lorsqu'on click sur deux cookies , la fonction permettant de regarder les alignements se lance et ajoute des points, plus l'alignement est grand plus on gagne de points.
 - apres les alignements, on appelle la fonction permettant de faire descendre les cookies.
 - La fonction se repete tant qu'il existe des alignement (####Remarque : pour une raison que j'ignore le booléen ne marchait pas correctement, j'ai alors fait une boucle for de 20 itérations pour compenser...), a chaque fois que la fonction est appeller dans la boucle les points obtenus seront doublé , puis triplé,.... sur les alignements obtenus.
   
