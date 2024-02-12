@@ -2,10 +2,11 @@
 
 ##Ce qui est fait
 
-- Au début du jeu les cookies sont générés de façon à ce qu'il y ai pas d'alignement possible.
-- lorsque drag and drop ou alors lorsqu'on click sur deux cookies , la fonction permettant de regarder les alignements se lance et ajoute des points, plus l'alignement est grand plus on gagne de points.
-- apres les alignements, on appelle la fonction permettant de faire descendre les cookies.
-- La fonction se repete tant qu'il existe des alignement (####Remarque : pour une raison que j'ignore le booléen ne marchait pas correctement, j'ai alors fait une boucle for de 20 itérations pour compenser...), a chaque fois que la fonction est appeller dans la boucle les points obtenus seront doublé , puis triplé,.... sur les alignements obtenus.
+- Au début du jeu les cookies sont générés de façon à ce qu'il y a pas d'alignement possible grace à la fonction "GoAlignement" qui vérifie si y a des alignements.
+- Lorsque il y a un drag and drop ou alors lorsqu'on click sur deux cookies on qu'on les échanges, la fonction "GoAlignement" va se lancer permettant d'appeler les fonctions qui regarde les alignements sur les lignes et sur les colonnes, et d'ajouter des points, plus grands sont les alignements est plus on gagne de points (3=1points, 4=points, 5=points,...)
+- apres les alignements, on appelle la fonction permettant de faire descendre les cookies nommer "faireTomberCookiesToutesColonnes" qui va faire tomber chaque cookies dans chacunes des colonnes en commençant par le bas et en remontant jusqu'à la ligne la plus haute, si il n'y pas de cookies il en génère aléatoirment.
+- La fonction "GoAlignement" se repete tant qu'il existe des alignement (####Remarque : pour une raison que j'ignore le booléen ne marchait pas correctement, j'ai alors fait une boucle for de 20 itérations pour compenser qui assure qu'il n'y ait plus d'alignement ...), a chaque fois que la fonction est appeller dans la boucle les points obtenus seront alors doublé , puis triplé,.... sur les alignements obtenus.
+
   
 ##En bonus
 
